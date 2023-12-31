@@ -1849,6 +1849,7 @@ border-radius:3px;
       width: 10px;
     }
     
+    
     .product_list_table::-webkit-scrollbar-track, .table-responsive::-webkit-scrollbar-track {
       background: none;
     }
@@ -1944,8 +1945,30 @@ span.join_btn {
     cursor: pointer;
 }
 
+.login-form .mt-sm-5.text-center.pt-3 {
+    margin-top: 80px !important;
+}
 
+img.login_bg {
+    padding-top: 100px;
+}
 
+.form-control:focus {
+    color: none;
+    background-color: none;
+    border-color: #E9EAEC;
+    outline: none;
+    box-shadow: none;
+}
+
+::placeholder {
+    color:  #A0AEC0 !important;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+  }
 
 /* My css End */
 
@@ -1973,14 +1996,9 @@ span.join_btn {
             padding: 20px;
         }
 
-        .login-form .mt-sm-5.text-center.pt-3 {
-            margin-top: 80px;
-        }
+       
 
-        .dev{
-            margin: 10px;
-        }
-    
+        
     }
 
 
